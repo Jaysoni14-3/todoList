@@ -65,8 +65,6 @@ function App() {
           </form>
         </div>
 
-        {/* todoState={state.todo} todoId={todo.id} todoCompleted={todo.completed} todoText={todo.text} */}
-
         <div className="todo-list py-4 mx-4 sm:w-[480px] sm:mx-auto">
           {state?.todos?.map(
             (todo) =>
